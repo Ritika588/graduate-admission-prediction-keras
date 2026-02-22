@@ -77,21 +77,10 @@ Performance tracked:
 - Difference between Classification and Regression  
 - Proper metric selection  
 - Model compilation in Keras  
-- Understanding `history.history`  
 - Plotting training vs validation performance  
 - Importance of choosing correct output activation  
 
----
-
-## 🚀 Future Improvements
-
-- Compare with Linear Regression baseline  
-- Hyperparameter tuning  
-- Add early stopping  
-- Convert into a simple web app using Streamlit or Flask  
-- Perform feature importance analysis  
-
----
+---i 
 
 ## 📚 Tech Stack
 
