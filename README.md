@@ -29,7 +29,7 @@ The goal of this repository is to understand how neural networks behave across d
 - Classifies handwritten digits (0–9)
 - Output: 10 classes
 - Final Activation: Softmax
-- Loss: Categorical Crossentropy / Sparse Categorical Crossentropy
+- Loss: Sparse Categorical Crossentropy
 - Metric: Accuracy
 
 ---
