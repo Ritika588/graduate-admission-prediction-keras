@@ -1,99 +1,65 @@
-# Graduate Admission Prediction – Keras
+# Keras Neural Network Practice
 
-Regression model built using Keras to predict graduate admission probability based on academic profile features.
+This repository contains learning-based implementations of neural networks using TensorFlow/Keras.
 
----
-
-## 📌 Overview
-
-This project is a learning-based implementation of a machine learning model using Keras (TensorFlow) to predict the **Chance of Admission** for graduate studies based on academic and profile parameters.
-
-The main goal of this project was to:
-
-- Understand how Keras works
-- Learn how neural networks are built and trained
-- Understand loss functions and evaluation metrics
-- Practice model training, validation, and performance visualization
-
-This is a **regression problem**, not a classification task.
+The goal of this repository is to understand how neural networks behave across different problem types including regression, binary classification, and multi-class classification.
 
 ---
 
-## 📊 Dataset
+## 📁 Projects Included
 
-The dataset contains the following features:
-
-- GRE Score  
-- TOEFL Score  
-- University Rating  
-- SOP Strength  
-- LOR Strength  
-- CGPA  
-- Research Experience  
-- Chance of Admit (Target Variable)
-
-Target variable:
-
-**Chance of Admit → Continuous value between 0 and 1**
+### 🔹 1. Graduate Admission Prediction (Regression)
+- Predicts probability of graduate admission
+- Output: Continuous value (0–1)
+- Loss: Mean Squared Error (MSE)
+- Metric: Mean Absolute Error (MAE)
 
 ---
 
-## 🧠 Problem Type
-
-- ✔ Regression  
-- ❌ Not Classification  
-
-Since the output is a continuous probability value, regression metrics are used.
-
----
-
-## ⚙️ Model Architecture
-
-- Input Layer  
-- Hidden Dense Layers (ReLU activation)  
-- Output Layer (Linear activation)  
-
-**Loss Function:** Mean Squared Error (MSE)  
-**Evaluation Metric:** Mean Absolute Error (MAE)
+### 🔹 2. Customer Churn Prediction (Binary Classification)
+- Predicts whether a customer will churn (Yes/No)
+- Output: 0 or 1
+- Final Activation: Sigmoid
+- Loss: Binary Crossentropy
+- Metric: Accuracy
 
 ---
 
-## 📈 Training Details
-
-- Optimizer: Adam  
-- Validation Split: 20%  
-
-Performance tracked:
-
-- Training Loss  
-- Validation Loss  
-- Training MAE  
-- Validation MAE  
+### 🔹 3. MNIST Handwritten Digit Classification (Multi-class Classification)
+- Classifies handwritten digits (0–9)
+- Output: 10 classes
+- Final Activation: Softmax
+- Loss: Categorical Crossentropy / Sparse Categorical Crossentropy
+- Metric: Accuracy
 
 ---
 
-## 🧪 Key Learnings
+## 🎯 Learning Objectives
 
-- Difference between Classification and Regression  
-- Proper metric selection  
-- Model compilation in Keras  
-- Plotting training vs validation performance  
-- Importance of choosing correct output activation  
+This repository focuses on understanding:
 
----i 
-
-## 📚 Tech Stack
-
-- Python  
-- TensorFlow / Keras  
-- NumPy  
-- Pandas  
-- Matplotlib  
+- Neural network architecture design
+- Regression vs Classification
+- Loss functions (MSE vs Crossentropy)
+- Metrics (MAE vs Accuracy)
+- Training vs Validation performance
+- Overfitting and underfitting behavior
+- Model evaluation using training history
 
 ---
 
-## 🎯 Purpose of This Repository
+## 🛠 Tech Stack
 
-This repository is a learning milestone project created to build foundational understanding of deep learning with Keras.
+- Python
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Matplotlib
 
-It is not intended as a production-ready system, but as a step in the learning journey toward applied machine learning.
+---
+
+## 📌 Purpose
+
+This repository is intended as a structured learning archive while building foundational understanding of neural networks using Keras.
+
+These implementations are educational and not production-ready systems.
